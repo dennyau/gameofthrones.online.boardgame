@@ -1,3 +1,24 @@
+function getHouseCardsString(house_name, image_file_array) {
+  var rt = '';
+  var html_array = image_file_array.map(function(image_file){
+    return '<img src="bolton9p_files/cards_bolton9p_files/' + house_name + '/' + image_file + '" width="23%"/>';
+  });
+  //console.log(html_array);
+  rt = html_array.join('\n');
+
+  return rt;
+}
+
+bolton_cards =  getHouseCardsString('bolton',[
+  'roose.jpg',
+  'ramsay.jpg',
+  'harald.jpg',
+  'vargo.jpg',
+  'nage.jpg',
+  'wolkan.jpg',
+  'reek.jpg'
+]);
+
 default_game_json = {
     "wildlings": "0",
     "round": "7",
@@ -48,7 +69,7 @@ default_game_json = {
         "martell": "<img src=\"bolton9p_files/cards_bolton9p_files/martell/oberyn.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/martell/hotah.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/martell/obara.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/martell/tyene.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/martell/nymeria.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/martell/ellaria.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/martell/doran.jpg\" width=\"23%\"/>",
         "stark": "<img src=\"bolton9p_files/cards_bolton9p_files/stark/nedstark.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/stark/robb.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/stark/karstark.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/stark/greatjon.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/stark/cassel.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/stark/arya.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/stark/bran.jpg\" width=\"23%\"/>",
         "targaryen": "<img src=\"bolton9p_files/cards_bolton9p_files/targaryen/daenerys.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/targaryen/barristan.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/targaryen/daario.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/targaryen/jorah.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/targaryen/greyworm.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/targaryen/tyrion.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/targaryen/varys.jpg\" width=\"23%\"/>",
-        "tully": "<img src=\"bolton9p_files/cards_bolton9p_files/tully/hoster.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/bolton/roose.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tully/mallister.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tully/vance.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tully/blackfish.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tully/catelyn.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tully/frey.jpg\" width=\"23%\"/>",
+        "tully": bolton_cards,
         "tyrell": "<img src=\"bolton9p_files/cards_bolton9p_files/tyrell/renly.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tyrell/loras.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tyrell/garlan.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tyrell/brienne.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tyrell/mace.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tyrell/margaery.jpg\" width=\"23%\"/>\n<img src=\"bolton9p_files/cards_bolton9p_files/tyrell/ladyolenna.jpg\" width=\"23%\"/>"
     },
     "housecardTracking": {
