@@ -18,7 +18,7 @@ table button, table input { *overflow: auto; }
 button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
 input[type="search"] { -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
-button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; } 
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; resize: vertical; }
 input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
@@ -58,7 +58,7 @@ q:before, q:after { content: ""; content: none; }
 .token-tyrell,
 .token-martell,
 .token-arryn,
-.token-tully,
+.token-bolton,
 .token-targaryen,
 
 .powertoken-lannister,
@@ -68,7 +68,7 @@ q:before, q:after { content: ""; content: none; }
 .powertoken-tyrell,
 .powertoken-martell,
 .powertoken-arryn,
-.powertoken-tully,
+.powertoken-bolton,
 .powertoken-targaryen,
 
 .supply-lannister,
@@ -78,7 +78,7 @@ q:before, q:after { content: ""; content: none; }
 .supply-tyrell,
 .supply-martell,
 .supply-arryn,
-.supply-tully,
+.supply-bolton,
 .supply-targaryen,
 
 .victory-lannister,
@@ -88,7 +88,7 @@ q:before, q:after { content: ""; content: none; }
 .victory-tyrell,
 .victory-martell,
 .victory-arryn,
-.victory-tully,
+.victory-bolton,
 .victory-targaryen,
 
 .routed-footman-lannister,
@@ -98,7 +98,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-footman-tyrell,
 .routed-footman-martell,
 .routed-footman-arryn,
-.routed-footman-tully,
+.routed-footman-bolton,
 .routed-footman-targaryen,
 .footman-lannister,
 .footman-stark,
@@ -107,7 +107,7 @@ q:before, q:after { content: ""; content: none; }
 .footman-tyrell,
 .footman-martell,
 .footman-arryn,
-.footman-tully,
+.footman-bolton,
 .footman-targaryen,
 
 .routed-knight-lannister,
@@ -117,7 +117,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-knight-tyrell,
 .routed-knight-martell,
 .routed-knight-arryn,
-.routed-knight-tully,
+.routed-knight-bolton,
 .routed-knight-targaryen,
 .knight-lannister,
 .knight-stark,
@@ -126,7 +126,7 @@ q:before, q:after { content: ""; content: none; }
 .knight-tyrell,
 .knight-martell,
 .knight-arryn,
-.knight-tully,
+.knight-bolton,
 .knight-targaryen,
 
 .routed-ship-lannister,
@@ -136,7 +136,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-ship-tyrell,
 .routed-ship-martell,
 .routed-ship-arryn,
-.routed-ship-tully,
+.routed-ship-bolton,
 .routed-ship-targaryen,
 .ship-lannister,
 .ship-stark,
@@ -145,7 +145,7 @@ q:before, q:after { content: ""; content: none; }
 .ship-tyrell,
 .ship-martell,
 .ship-arryn,
-.ship-tully,
+.ship-bolton,
 .ship-targaryen,
 
 .routed-siege-lannister,
@@ -155,7 +155,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-siege-tyrell,
 .routed-siege-martell,
 .routed-siege-arryn,
-.routed-siege-tully,
+.routed-siege-bolton,
 .routed-siege-targaryen,
 .siege-lannister,
 .siege-stark,
@@ -164,7 +164,7 @@ q:before, q:after { content: ""; content: none; }
 .siege-tyrell,
 .siege-martell,
 .siege-arryn,
-.siege-tully,
+.siege-bolton,
 .siege-targaryen {
     background: url(images/tokens.png) no-repeat;
     width: 62px;
@@ -182,7 +182,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-footman-tyrell,
 .routed-footman-martell,
 .routed-footman-arryn,
-.routed-footman-tully,
+.routed-footman-bolton,
 .routed-footman-targaryen,
 
 .routed-knight-lannister,
@@ -192,7 +192,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-knight-tyrell,
 .routed-knight-martell,
 .routed-knight-arryn,
-.routed-knight-tully,
+.routed-knight-bolton,
 .routed-knight-targaryen,
 
 .routed-ship-lannister,
@@ -202,7 +202,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-ship-tyrell,
 .routed-ship-martell,
 .routed-ship-arryn,
-.routed-ship-tully,
+.routed-ship-bolton,
 .routed-ship-targaryen,
 
 .routed-siege-lannister,
@@ -212,7 +212,7 @@ q:before, q:after { content: ""; content: none; }
 .routed-siege-tyrell,
 .routed-siege-martell,
 .routed-siege-arryn,
-.routed-siege-tully,
+.routed-siege-bolton,
 .routed-siege-targaryen {
     background-color: rgba(0, 0, 0, .7);
     box-shadow: 0 0 10px rgba(0, 0, 0, .7);
@@ -305,7 +305,7 @@ q:before, q:after { content: ""; content: none; }
 .token-arryn {
     background-position: -372px -62px;
 }
-.token-tully {
+.token-bolton {
     background-position: -500px -62px;
 }
 .token-targaryen {
@@ -336,7 +336,7 @@ q:before, q:after { content: ""; content: none; }
 .powertoken-targaryen {
     background-position: -421px -125px;
 }
-.powertoken-tully {
+.powertoken-bolton {
     background-position: -364px -125px;
 }
 
@@ -364,7 +364,7 @@ q:before, q:after { content: ""; content: none; }
 .supply-targaryen {
     background-position: -432px -186px;
 }
-.supply-tully {
+.supply-bolton {
     background-position: -372px -186px;
 }
 
@@ -392,7 +392,7 @@ q:before, q:after { content: ""; content: none; }
 .victory-targaryen {
     background-position: -431px -248px;
 }
-.victory-tully {
+.victory-bolton {
     background-position: -492px -248px;
 }
 
@@ -428,8 +428,8 @@ q:before, q:after { content: ""; content: none; }
 .footman-targaryen {
     background-position: -994px -62px;
 }
-.routed-footman-tully,
-.footman-tully {
+.routed-footman-bolton,
+.footman-bolton {
     background-position: -936px -62px;
 }
 
@@ -465,8 +465,8 @@ q:before, q:after { content: ""; content: none; }
 .knight-targaryen {
     background-position: -994px -124px;
 }
-.routed-knight-tully,
-.knight-tully {
+.routed-knight-bolton,
+.knight-bolton {
     background-position: -936px -124px;
 }
 
@@ -502,8 +502,8 @@ q:before, q:after { content: ""; content: none; }
 .ship-targaryen {
     background-position: -994px -186px;
 }
-.routed-ship-tully,
-.ship-tully {
+.routed-ship-bolton,
+.ship-bolton {
     background-position: -936px -186px;
 }
 
@@ -531,7 +531,7 @@ q:before, q:after { content: ""; content: none; }
 .siege-targaryen {
     background-position: -994px -248px;
 }
-.siege-tully {
+.siege-bolton {
     background-position: -936px -248px;
 }
 
@@ -766,7 +766,7 @@ q:before, q:after { content: ""; content: none; }
 .pos-round-10 {
     left: 88%;
     top: 73.9%;
-} 
+}
 .pos-round-11 {
     left: 88%;
     top: 71.3%;
@@ -1726,7 +1726,7 @@ ul.nav {
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
-    
+
 }
 .fullwidth textarea:focus {
     min-height: 10em;
@@ -1754,7 +1754,7 @@ input[type="checkbox"][name^="housecard-"]:checked + label {
 .tokenCounts-tyrell {
     left: 506px;
 }
-.tokenCounts-tully {
+.tokenCounts-bolton {
 	left: 444px;
 }
 .tokenCounts-targaryen {

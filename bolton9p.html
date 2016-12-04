@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <!-- copied from https://mrradosny.github.io/got9v2.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+
   <title>Bolton Rebellion - Game of Thrones 2nd Edition Online board</title>
-  
+
   <link rel="stylesheet" type="text/css" href="./bolton9p_files/main.css">
-  
+
   <script type="text/javascript" src="./bolton9p_files/jquery-1.8.3.js"></script>
   <script type="text/javascript" src="./bolton9p_files/Base64.js"></script>
   <script type="text/javascript" src="./bolton9p_files/LZString.js"></script>
@@ -16,7 +16,7 @@
 <body>
   <div class="controls">
     <ul class="interfaceControls"><li><label for="toggleUnits">Show/Hide Units on Board</label></li><li><label for="toggleOrders">Show/Hide Orders on Board</label></li><li><label for="togglePowertokens">Show/Hide Powertokens on Board</label></li><li id="shortlink"></li></ul>
-    <ul class="nav"><li><label for="tracks">Influence Tracks/Supply/…</label></li><li><label for="arrynStuff">Arryn: Settings</label></li><li><label for="baratheonStuff">Baratheon: Settings</label></li><li><label for="greyjoyStuff">Greyjoy: Settings</label></li><li><label for="lannisterStuff">Lannister: Settings</label></li><li><label for="martellStuff">Martell: Settings</label></li><li><label for="starkStuff">Stark: Settings</label></li><li><label for="targaryenStuff">Targaryen: Settings</label></li><li><label for="tullyStuff">Tully: Settings</label></li><li><label for="tyrellStuff">Tyrell: Settings</label></li></ul>
+    <ul class="nav"><li><label for="tracks">Influence Tracks/Supply/…</label></li><li><label for="arrynStuff">Arryn: Settings</label></li><li><label for="baratheonStuff">Baratheon: Settings</label></li><li><label for="greyjoyStuff">Greyjoy: Settings</label></li><li><label for="lannisterStuff">Lannister: Settings</label></li><li><label for="martellStuff">Martell: Settings</label></li><li><label for="starkStuff">Stark: Settings</label></li><li><label for="targaryenStuff">Targaryen: Settings</label></li><li><label for="boltonStuff">Bolton: Settings</label></li><li><label for="tyrellStuff">Tyrell: Settings</label></li></ul>
     <input type="radio" name="navContentControl" id="tracks">
     <div class="navContent">
         <label class="fullwidth">
@@ -88,8 +88,8 @@
             <textarea name="housecards-targaryen"></textarea>
         </label>
         <label class="fullwidth">
-            Tullys House Cards:
-            <textarea name="housecards-tully"></textarea>
+            Boltons House Cards:
+            <textarea name="housecards-bolton"></textarea>
         </label>
         <label class="fullwidth">
             Tyrells House Cards:
@@ -327,38 +327,38 @@
 		<input type="checkbox" name="housecard-6-targaryen" id="housecard-6-targaryen">
 		<label for="housecard-6-targaryen"><img></label>
     </div>
-    <input type="radio" name="navContentControl" id="tullyStuff">
+    <input type="radio" name="navContentControl" id="boltonStuff">
     <div class="navContent">
         <label class="fullwidth">
             Units:
-            <textarea name="units-tully"></textarea>
+            <textarea name="units-bolton"></textarea>
         </label>
         <label class="fullwidth">
             Orders:
-            <textarea name="orders-tully"></textarea>
+            <textarea name="orders-bolton"></textarea>
         </label>
         <label class="fullwidth">
             Powertokens in Areas:
-            <textarea name="powertokens-tully"></textarea>
+            <textarea name="powertokens-bolton"></textarea>
         </label>
         <label class="fullwidth">
             Available Power Tokens:
-            <input name="availablePowertokens-tully" type="number" min="0" max="20" step="1" value="5">
+            <input name="availablePowertokens-bolton" type="number" min="0" max="20" step="1" value="5">
         </label>
-		<input type="checkbox" name="housecard-0-tully" id="housecard-0-tully">
-		<label for="housecard-0-tully"><img></label>
-		<input type="checkbox" name="housecard-1-tully" id="housecard-1-tully">
-		<label for="housecard-1-tully"><img></label>
-		<input type="checkbox" name="housecard-2-tully" id="housecard-2-tully">
-		<label for="housecard-2-tully"><img></label>
-		<input type="checkbox" name="housecard-3-tully" id="housecard-3-tully">
-		<label for="housecard-3-tully"><img></label>
-		<input type="checkbox" name="housecard-4-tully" id="housecard-4-tully">
-		<label for="housecard-4-tully"><img></label>
-		<input type="checkbox" name="housecard-5-tully" id="housecard-5-tully">
-		<label for="housecard-5-tully"><img></label>
-		<input type="checkbox" name="housecard-6-tully" id="housecard-6-tully">
-		<label for="housecard-6-tully"><img></label>
+		<input type="checkbox" name="housecard-0-bolton" id="housecard-0-bolton">
+		<label for="housecard-0-bolton"><img></label>
+		<input type="checkbox" name="housecard-1-bolton" id="housecard-1-bolton">
+		<label for="housecard-1-bolton"><img></label>
+		<input type="checkbox" name="housecard-2-bolton" id="housecard-2-bolton">
+		<label for="housecard-2-bolton"><img></label>
+		<input type="checkbox" name="housecard-3-bolton" id="housecard-3-bolton">
+		<label for="housecard-3-bolton"><img></label>
+		<input type="checkbox" name="housecard-4-bolton" id="housecard-4-bolton">
+		<label for="housecard-4-bolton"><img></label>
+		<input type="checkbox" name="housecard-5-bolton" id="housecard-5-bolton">
+		<label for="housecard-5-bolton"><img></label>
+		<input type="checkbox" name="housecard-6-bolton" id="housecard-6-bolton">
+		<label for="housecard-6-bolton"><img></label>
     </div>
     <input type="radio" name="navContentControl" id="tyrellStuff">
     <div class="navContent">
@@ -398,9 +398,9 @@
     <input type="checkbox" id="toggleUnits" checked="checked">
     <input type="checkbox" id="toggleOrders" checked="checked">
     <input type="checkbox" id="togglePowertokens" checked="checked">
-    
+
 </div>
-  
+
 
 
 
