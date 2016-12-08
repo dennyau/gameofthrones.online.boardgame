@@ -908,8 +908,8 @@ q:before, q:after { content: ""; content: none; }
     transition: opacity .5s ease;
 }
 .pos-castleblack {
-    top: 11%;
-    left: 35%;
+    top: 10%;
+    left: 33%;
 }
 .pos-bearisland {
 	top: 11.5%;
@@ -921,7 +921,7 @@ q:before, q:after { content: ""; content: none; }
 }
 .pos-dreadfort {
 	top: 22%;
-	left: 37%;
+	left: 40%;
 }
 .pos-winterfell {
     top: 24%;
@@ -933,15 +933,15 @@ q:before, q:after { content: ""; content: none; }
 }
 .pos-karhold {
     top: 16.5%;
-    left: 43.5%;
+    left: 46.5%;
 }
 .pos-stonyshore, .pos-stoneyshore {
     top: 31%;
     left: 17%;
 }
 .pos-whiteharbor {
-    top: 29%;
-    left: 34%;
+    top: 31%;
+    left: 37%;
 }
 .pos-whiteharbor-harbor {
     top: 36.5%;
@@ -974,8 +974,8 @@ q:before, q:after { content: ""; content: none; }
 }
 
 .pos-bayofice {
-    top: 23%;
-    left: 3%;
+    top: 16%;
+    left: 6%;
 }
 .pos-shiveringsea {
     top: 33%;
@@ -1007,8 +1007,8 @@ q:before, q:after { content: ""; content: none; }
     left: 11%;
 }
 .pos-stoneysept {
-    top: 63%;
-    left: 27%;
+    top: 62%;
+    left: 23%;
 }
 .pos-harrenhal {
     top: 59%;
@@ -1200,8 +1200,8 @@ q:before, q:after { content: ""; content: none; }
 	left: 74%
 }
 .pos-braavos-harbor {
-	top: 47.5%;
-	left: 67%
+	top: 46%;
+	left: 68.5%
 }
 .pos-andalos {
 	top: 57%;
