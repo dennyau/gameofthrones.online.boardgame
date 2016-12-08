@@ -1285,7 +1285,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
 .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers,
-
+.unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
 
 .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
@@ -1316,6 +1316,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-goldensound ~ .unit.pos-goldensound,
 .unit.pos-lannisport ~ .unit.pos-lannisport,
 .unit.pos-lannisport-harbor ~ .unit.pos-lannisport-harbor,
+.unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-stoneysept ~ .unit.pos-stoneysept,
 .unit.pos-harrenhal ~ .unit.pos-harrenhal,
 .unit.pos-riverrun ~ .unit.pos-riverrun,
@@ -1392,7 +1393,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
 .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
-
+.unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
 
 .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
@@ -1500,6 +1501,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
 
+.unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
 
 .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
