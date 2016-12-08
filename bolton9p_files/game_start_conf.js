@@ -100,9 +100,9 @@ tyrell_cards = getHouseCardsString('tyrell',[
 ]);
 
 full_units_state = {
-	"arryn": "Eyrie: FM, FM, FM, FM\nThe Vale: FM, FM, FM, FM\nBay of Crabs: SH, SH, SH, SH\nNarrow Sea: SH, SH, SH, SH\nKingsroad: FM, FM, FM, FM\nBloody Gate: FM, FM, FM, FM\nThe Fingers: FM, FM, FM, FM\nThe Twins: FM, FM, FM, FM\nGulltown: FM, FM, FM, FM",
+	"arryn": "Gulltown - Port: SH, SH, SH, SH\nEyrie: FM, FM, FM, FM\nThe Vale: FM, FM, FM, FM\nBay of Crabs: SH, SH, SH, SH\nNarrow Sea: SH, SH, SH, SH\nKingsroad: FM, FM, FM, FM\nBloody Gate: FM, FM, FM, FM\nThe Fingers: FM, FM, FM, FM\nThe Twins: FM, FM, FM, FM\nGulltown: FM, FM, FM, FM",
 	"baratheon": "Dragonstone: FM, FM, FM, FM\nDragonstone - port: SH, SH, SH, SH\nStorm's End: FM, FM, FM, FM\nKings Landing: FM, FM, FM, FM\nCrackclaw Point: FM, FM, FM, FM\nBitterbridge: FM, FM, FM, FM\nRainwood: FM, FM, FM, FM\nBlackwater Bay: Sh, SH, SH, SH\nShipbreaker Bay: SH, SH, SH, SH\nStorm's End - port: SH, SH, SH, SH",
-	"greyjoy": "Pyke: FM, FM, FM, FM\nGreywater Watch: FM, FM, FM, FM\nSeagard: FM, FM, FM, FM\nFlint's Finger: FM, FM, FM, FM\nWhispering Wood: FM, FM, FM, FM\nPyke - port: SH, SH, SH, SH\nIronman's Bay: SH, SH, SH, SH\nSunset Sea: SH, SH, SH, SH",
+	"greyjoy": "Seagard - port: SH, SH, SH, SH\nPyke: FM, FM, FM, FM\nGreywater Watch: FM, FM, FM, FM\nSeagard: FM, FM, FM, FM\nFlint's Finger: FM, FM, FM, FM\nWhispering Wood: FM, FM, FM, FM\nPyke - port: SH, SH, SH, SH\nIronman's Bay: SH, SH, SH, SH\nSunset Sea: SH, SH, SH, SH",
 	"lannister": "Lannisport: FM, FM, FM, FM\nStoney Sept: FM, FM, FM, FM\nGolden Sound: SH, SH, SH, SH\nLannisport - port: SH, SH, SH, SH\nRiverrun: FM, FM, FM, FM\nSearoad Marches: FM, FM, FM, FM\nBlackwater: FM, FM, FM, FM\nHarrenhal: FM, FM, FM, FM",
 	"martell": "Sunspear: FM, FM, FM, FM\nSalt Shore: FM, FM, FM, FM\nSea of Dorne: SH, SH, SH, SH\nEast Summer Sea: SH, SH, SH, SH\nStarfall: FM, FM, FM, FM\nyronwood: FM, FM, FM, FM\nPrince's Pass: FM, FM, FM, FM\nBoneway: FM, FM, FM, FM\nLys: FM, FM, FM, FM",
 	"stark": "Winterfell: FM, FM, FM, FM\nBay of Ice: SH, SH, SH, SH\nDeepwood: FM, FM, FM, FM\nDeepwood - port: SH, SH, SH, SH\nMoat Cailin: FM, FM, FM, FM\nCastle Black: FM, FM, FM, FM",
