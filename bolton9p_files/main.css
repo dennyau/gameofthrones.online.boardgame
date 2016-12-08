@@ -939,6 +939,12 @@ q:before, q:after { content: ""; content: none; }
     top: 31%;
     left: 17%;
 }
+
+.pos-barrowlands {
+    top: 31%;
+    left: 26%;
+}
+
 .pos-whiteharbor {
     top: 31%;
     left: 37%;
@@ -1286,6 +1292,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers,
 .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
+.unit.pos-barrowlands ~ .unit.pos-barrowlands,
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
 
 .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
@@ -1316,6 +1323,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-goldensound ~ .unit.pos-goldensound,
 .unit.pos-lannisport ~ .unit.pos-lannisport,
 .unit.pos-lannisport-harbor ~ .unit.pos-lannisport-harbor,
+.unit.pos-barrowlands ~ .unit.pos-barrowlands,
 .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-stoneysept ~ .unit.pos-stoneysept,
 .unit.pos-harrenhal ~ .unit.pos-harrenhal,
@@ -1394,6 +1402,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
 .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
+.unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands,
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
 
 .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay ~ .unit.pos-blackwaterbay,
@@ -1500,7 +1509,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
 .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
-
+.unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands,
 .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
 
