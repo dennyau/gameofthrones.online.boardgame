@@ -1181,14 +1181,6 @@ q:before, q:after { content: ""; content: none; }
 	top: 56%;
 	left: 16.5%;
 }
-.pos-goldentooth {
-	top: 61%;
-	left: 20%;
-}
-.pos-casterlyrock {
-	top: 68%;
-	left: 20%;
-}
 .pos-bitterbridge {
 	top: 74%;
 	left: 30%;
@@ -1363,8 +1355,6 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-gulltown ~ .unit.pos-gulltown,
 .unit.pos-whisperingwood ~ .unit.pos-whisperingwood,
 .unit.pos-banefort ~ .unit.pos-banefort,
-.unit.pos-goldentooth ~ .unit.pos-goldentooth,
-.unit.pos-casterlyrock ~ .unit.pos-casterlyrock,
 .unit.pos-bitterbridge ~ .unit.pos-bitterbridge,
 .unit.pos-rainwood ~ .unit.pos-rainwood,
 .unit.pos-lys ~ .unit.pos-lys,
@@ -1471,8 +1461,6 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown,
 .unit.pos-whisperingwood ~ .unit.pos-whisperingwood ~ .unit.pos-whisperingwood,
 .unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort,
-.unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth,
-.unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock,
 .unit.pos-bitterbridge ~ .unit.pos-bitterbridge ~ .unit.pos-bitterbridge,
 .unit.pos-rainwood ~ .unit.pos-rainwood ~ .unit.pos-rainwood,
 .unit.pos-lys ~ .unit.pos-lys ~ .unit.pos-lys,
@@ -1579,8 +1567,6 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown ~ .unit.pos-gulltown,
 .unit.pos-whisperingwood ~ .unit.pos-whisperingwood ~ .unit.pos-whisperingwood ~ .unit.pos-whisperingwood,
 .unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort ~ .unit.pos-banefort,
-.unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth ~ .unit.pos-goldentooth,
-.unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock ~ .unit.pos-casterlyrock,
 .unit.pos-bitterbridge ~ .unit.pos-bitterbridge ~ .unit.pos-bitterbridge ~ .unit.pos-bitterbridge,
 .unit.pos-rainwood ~ .unit.pos-rainwood ~ .unit.pos-rainwood ~ .unit.pos-rainwood,
 .unit.pos-lys ~ .unit.pos-lys ~ .unit.pos-lys ~ .unit.pos-lys,
