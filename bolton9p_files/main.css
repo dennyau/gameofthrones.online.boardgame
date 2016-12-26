@@ -728,53 +728,46 @@ q:before, q:after { content: ""; content: none; }
     top: 3.95%;
 }
 .pos-round-1 {
-    left: 88%;
-    top: 97.3%;
+    left: 86.7%;
+    top: 96.8%;
 }
 .pos-round-2 {
-    left: 88%;
-    top: 94.7%;
+    left: 86.7%;
+    top: 94.3%;
 }
 .pos-round-3 {
-    left: 88%;
+    left: 86.7%;
     top: 92.1%;
 }
 .pos-round-4 {
-    left: 88%;
+    left: 86.7%;
     top: 89.5%;
 }
 .pos-round-5 {
-    left: 88%;
+    left: 86.7%;
     top: 86.9%;
 }
 .pos-round-6 {
-    left: 88%;
+    left: 86.7%;
     top: 84.3%;
 }
 .pos-round-7 {
-    left: 88%;
+    left: 86.7%;
     top: 81.7%;
 }
 .pos-round-8 {
-    left: 88%;
+    left: 86.7%;
     top: 79.1%;
 }
 .pos-round-9 {
-    left: 88%;
+    left: 86.7%;
     top: 76.5%;
 }
 .pos-round-10 {
-    left: 88%;
+    left: 86.7%;
     top: 73.9%;
 }
-.pos-round-11 {
-    left: 88%;
-    top: 71.3%;
-}
-.pos-round-12 {
-    left: 88%;
-    top: 68.7%;
-}
+
 .pos-victory-1 ~ .pos-victory-1,
 .pos-victory-2 ~ .pos-victory-2,
 .pos-victory-3 ~ .pos-victory-3,
