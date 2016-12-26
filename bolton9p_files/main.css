@@ -928,6 +928,10 @@ q:before, q:after { content: ""; content: none; }
     top: 13%;
     left: 38.4%;
 }
+.pos-whiteknife {
+    top: 25%;
+    left: 33%;
+}
 .pos-longlake {
     top: 18.5%;
     left: 35.4%;
@@ -1336,6 +1340,7 @@ q:before, q:after { content: ""; content: none; }
 
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
 .unit.pos-thegift ~ .unit.pos-thegift,
+.unit.pos-whiteknife ~ .unit.pos-whiteknife,
 .unit.pos-longlake ~ .unit.pos-longlake,
 .unit.pos-karhold ~ .unit.pos-karhold,
 .unit.pos-stonyshore ~ .unit.pos-stonyshore,
@@ -1444,6 +1449,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
 
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
+.unit.pos-whiteknife ~ .unit.pos-whiteknife ~ .unit.pos-whiteknife,
 .unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake,
 .unit.pos-thegift ~ .unit.pos-thegift ~ .unit.pos-thegift,
 .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold,
@@ -1553,6 +1559,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
 
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
+.unit.pos-whiteknife ~ .unit.pos-whiteknife ~ .unit.pos-whiteknife ~ .unit.pos-whiteknife,
 .unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake ~ .unit.pos-longlake,
 .unit.pos-thegift ~ .unit.pos-thegift ~ .unit.pos-thegift ~ .unit.pos-thegift,
 .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold,
