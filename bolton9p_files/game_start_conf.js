@@ -107,7 +107,7 @@ full_units_state = {
 	"martell": "Sunspear: FM, FM, FM, FM\nSalt Shore: FM, FM, FM, FM\nSea of Dorne: SH, SH, SH, SH\nEast Summer Sea: SH, SH, SH, SH\nStarfall: FM, FM, FM, FM\nyronwood: FM, FM, FM, FM\nPrince's Pass: FM, FM, FM, FM\nBoneway: FM, FM, FM, FM\nLys: FM, FM, FM, FM",
 	"stark": "Queenscrown: FM, FM, FM, FM\nBarrowlands: FM, FM, FM, FM\nTorrhen's Square: FM, FM, FM, FM\nWinterfell: FM, FM, FM, FM\nBay of Ice: SH, SH, SH, SH\nDeepwood: FM, FM, FM, FM\nDeepwood - port: SH, SH, SH, SH\nMoat Cailin: FM, FM, FM, FM\nCastle Black: FM, FM, FM, FM",
 	"targaryen": "Pentos: FM, FM, FM, FM\nGolden Fields: FM, FM, FM, FM\nPentos - port: SH, SH, SH, SH\nSea of Myrth: SH, SH, SH, SH\nMyr: FM, FM, FM, FM\nDisputed lands: FM, FM, FM, FM\nVolantis: FM, FM, FM, FM\nAndalos: FM, FM, FM, FM\nNorvos: FM, FM, FM, FM\nBraavos: FM, FM, FM, FM\nBraavos - port: SH, SH, SH, SH\nVolantis - port: SH, SH, SH, SH\nBay of Rhoyne: SH, SH, SH, SH",
-	"bolton": "Dreadfort: FM, FM, FM, FM\nShivering Sea: SH, SH, SH, SH\nThe Byte: SH, SH, SH, SH\nKarhold: FM, FM, FM, FM\nWhite Harbor: FM, FM, FM, FM\nWhite Harbor - port: SH, SH, SH, SH",
+	"bolton": "TheGift: FM, FM, FM, FM\nDreadfort: FM, FM, FM, FM\nShivering Sea: SH, SH, SH, SH\nThe Byte: SH, SH, SH, SH\nKarhold: FM, FM, FM, FM\nWhite Harbor: FM, FM, FM, FM\nWhite Harbor - port: SH, SH, SH, SH",
 	"tyrell": "Highgarden: FM, FM, FM, FM\nThe Reach: FM, FM, FM, FM\nOldtown: FM, FM, FM, FM\nOldtown - port: Sh, SH, SH, SH\nDornish Marches: FM, FM, FM, FM\nThe Arbor: FM, FM, FM, FM\nRedwyne straights: SH, SH, SH, SH\nWest Summer Sea: SH, SH, SH, SH\nThree Towers: FM, FM, FM, FM"
 };
 

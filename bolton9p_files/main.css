@@ -924,6 +924,10 @@ q:before, q:after { content: ""; content: none; }
     top: 17.2%;
     left: 16%;
 }
+.pos-thegift {
+    top: 13%;
+    left: 38.4%;
+}
 .pos-karhold {
     top: 16.5%;
     left: 46.5%;
@@ -1327,6 +1331,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
 
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
+.unit.pos-thegift ~ .unit.pos-thegift,
 .unit.pos-karhold ~ .unit.pos-karhold,
 .unit.pos-stonyshore ~ .unit.pos-stonyshore,
 .unit.pos-whiteharbor ~ .unit.pos-whiteharbor,
@@ -1434,6 +1439,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
 
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
+.unit.pos-thegift ~ .unit.pos-thegift ~ .unit.pos-thegift,
 .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold,
 .unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore,
 .unit.pos-whiteharbor ~ .unit.pos-whiteharbor ~ .unit.pos-whiteharbor,
@@ -1541,6 +1547,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay ~ .unit.pos-ironmansbay,
 
 .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor ~ .unit.pos-winterfell-harbor,
+.unit.pos-thegift ~ .unit.pos-thegift ~ .unit.pos-thegift ~ .unit.pos-thegift,
 .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold ~ .unit.pos-karhold,
 .unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore ~ .unit.pos-stonyshore,
 .unit.pos-whiteharbor ~ .unit.pos-whiteharbor ~ .unit.pos-whiteharbor ~ .unit.pos-whiteharbor,
