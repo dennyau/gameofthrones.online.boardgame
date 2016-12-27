@@ -944,6 +944,10 @@ q:before, q:after { content: ""; content: none; }
     top: 16.5%;
     left: 46.5%;
 }
+.pos-blazewaterbay {
+    top: 32%;
+    left: 4.5%;
+}
 .pos-torrhenssquare-port {
     top: 33%;
     left: 9%;
@@ -1301,6 +1305,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
 .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers,
+.unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay,
 .unit.pos-torrhenssquare-port ~ .unit.pos-torrhenssquare-port,
 .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-barrowlands ~ .unit.pos-barrowlands,
@@ -1337,6 +1342,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-lannisport-harbor ~ .unit.pos-lannisport-harbor,
 .unit.pos-queenscrown ~ .unit.pos-queenscrown,
 .unit.pos-barrowlands ~ .unit.pos-barrowlands,
+.unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay,
 .unit.pos-torrhenssquare-port ~ .unit.pos-torrhenssquare-port,
 .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-stoneysept ~ .unit.pos-stoneysept,
@@ -1417,6 +1423,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint ~ .unit.pos-crackclawpoint,
 .unit.pos-kingslanding ~ .unit.pos-kingslanding ~ .unit.pos-kingslanding,
 .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
+.unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay,
 .unit.pos-torrhenssquare-port ~ .unit.pos-torrhenssquare-port ~ .unit.pos-torrhenssquare-port,
 .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown,
@@ -1531,6 +1538,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers ~ .unit.pos-threetowers,
 .unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown ~ .unit.pos-queenscrown,
 .unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands ~ .unit.pos-barrowlands,
+.unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay ~ .unit.pos-blazewaterbay,
 .unit.pos-torrhenssquare-port ~ .unit.pos-torrhenssquare-port ~ .unit.pos-torrhenssquare-port ~ .unit.pos-torrhenssquare-port,
 .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare ~ .unit.pos-torrhenssquare,
 .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore ~ .unit.pos-stoneyshore,
