@@ -916,6 +916,10 @@ q:before, q:after { content: ""; content: none; }
 	top: 22%;
 	left: 40%;
 }
+.pos-dreadfort-harbor {
+    top: 24%;
+    left: 46%;
+}
 .pos-winterfell {
     top: 24%;
     left: 26%;
@@ -1363,6 +1367,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-bearisland ~ .unit.pos-bearisland,
 .unit.pos-deepwood ~ .unit.pos-deepwood,
 .unit.pos-dreadfort ~ .unit.pos-dreadfort,
+.unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor,
 .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor,
 .unit.pos-vale ~ .unit.pos-vale,
 .unit.pos-bloodygate ~ .unit.pos-bloodygate,
@@ -1473,6 +1478,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland,
 .unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood,
 .unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort,
+.unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor,
 .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor,
 .unit.pos-vale ~ .unit.pos-vale ~ .unit.pos-vale,
 .unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate,
@@ -1583,6 +1589,7 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland ~ .unit.pos-bearisland,
 .unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood ~ .unit.pos-deepwood,
 .unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort ~ .unit.pos-dreadfort,
+.unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor ~ .unit.pos-dreadfort-harbor,
 .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor ~ .unit.pos-deepwood-harbor,
 .unit.pos-vale ~ .unit.pos-vale ~ .unit.pos-vale ~ .unit.pos-vale,
 .unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate ~ .unit.pos-bloodygate,
