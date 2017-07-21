@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<!-- copied from https://mrradosny.github.io/got9v2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Bolton Rebellion - Game of Thrones 2nd Edition Online board</title>
+
+  <link rel="stylesheet" type="text/css" href="./bolton9p-v2_files/main.css">
+
+  <script type="text/javascript" src="./bolton9p-v2_files/jquery-1.8.3.js"></script>
+  <script type="text/javascript" src="./bolton9p-v2_files/Base64.js"></script>
+  <script type="text/javascript" src="./bolton9p-v2_files/LZString.js"></script>
+  <script type="text/javascript" src="./bolton9p-v2_files/game_start_conf.js"></script>
+  <script type="text/javascript" src="./bolton9p-v2_files/main.js"></script>
+
+</head>
+<body>
+  <div class="controls">
+    <ul class="interfaceControls"><li><label for="toggleUnits">Show/Hide Units on Board</label></li><li><label for="toggleOrders">Show/Hide Orders on Board</label></li><li><label for="togglePowertokens">Show/Hide Powertokens on Board</label></li><li id="shortlink"></li></ul>
+    <ul class="nav"><li><label for="tracks">Influence Tracks/Supply/…</label></li><li><label for="arrynStuff">Arryn: Settings</label></li><li><label for="baratheonStuff">Baratheon: Settings</label></li><li><label for="boltonStuff">Bolton: Settings</label></li><li><label for="greyjoyStuff">Greyjoy: Settings</label></li><li><label for="lannisterStuff">Lannister: Settings</label></li><li><label for="martellStuff">Martell: Settings</label></li><li><label for="starkStuff">Stark: Settings</label></li><li><label for="targaryenStuff">Targaryen: Settings</label></li><li><label for="tyrellStuff">Tyrell: Settings</label></li></ul>
+    <input type="radio" name="navContentControl" id="tracks">
+    <div class="navContent">
+        <label class="fullwidth">
+            Iron Throne Order:
+            <textarea name="ironThroneOrder"></textarea>
+        </label>
+        <label class="fullwidth">
+            Fiefdom Order:
+            <textarea name="fiefdomOrder"></textarea>
+        </label>
+        <label class="fullwidth">
+            King's Court Order:
+            <textarea name="kingsCourtOrder"></textarea>
+        </label>
+        <label class="fullwidth">
+            Supply:
+            <textarea name="supply"></textarea>
+        </label>
+        <label class="fullwidth">
+            Victory:
+            <textarea name="victory"></textarea>
+        </label>
+        <label class="fullwidth">
+            Garrisons:
+            <textarea name="garrisons"></textarea>
+        </label>
+        <label class="fullwidth">
+            Wildlings: <input type="number" step="3" min="0" max="18" value="2" name="wildlings">
+        </label>
+        <label class="fullwidth">
+            Round: <input type="number" step="1" min="1" max="10" value="1" name="round">
+        </label>
+        <label class="fullwidth">
+            Valyrian Steel Blade was used: <input type="checkbox" name="vsb-used">
+        </label>
+        <lable class="fullwidth">
+            Raven was used: <input type="checkbox" name="raven-used">
+        </lable>
+        <lable class="fullwidth">
+            Max Power Tokens:
+            <input name="maxPowertokens" type="number" step="1" value="20">
+        </lable>
+        <label class="fullwidth">
+            Arryns House Cards:
+            <textarea name="housecards-arryn"></textarea>
+        </label>
+        <label class="fullwidth">
+            Baratheons House Cards:
+            <textarea name="housecards-baratheon"></textarea>
+        </label>
+        <label class="fullwidth">
+            Boltons House Cards:
+            <textarea name="housecards-bolton"></textarea>
+        </label>
+        <label class="fullwidth">
+            Greyjoys House Cards:
+            <textarea name="housecards-greyjoy"></textarea>
+        </label>
+        <label class="fullwidth">
+            Lannisters House Cards:
+            <textarea name="housecards-lannister"></textarea>
+        </label>
+        <label class="fullwidth">
+            Martells House Cards:
+            <textarea name="housecards-martell"></textarea>
+        </label>
+        <label class="fullwidth">
+            Starks House Cards:
+            <textarea name="housecards-stark"></textarea>
+        </label>
+        <label class="fullwidth">
+            Targaryens House Cards:
+            <textarea name="housecards-targaryen"></textarea>
+        </label>
+        <label class="fullwidth">
+            Tyrells House Cards:
+            <textarea name="housecards-tyrell"></textarea>
+        </label>
+    </div>
+    <input type="radio" name="navContentControl" id="arrynStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-arryn"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-arryn"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-arryn"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-arryn" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-arryn" id="housecard-0-arryn">
+		<label for="housecard-0-arryn"><img></label>
+		<input type="checkbox" name="housecard-1-arryn" id="housecard-1-arryn">
+		<label for="housecard-1-arryn"><img></label>
+		<input type="checkbox" name="housecard-2-arryn" id="housecard-2-arryn">
+		<label for="housecard-2-arryn"><img></label>
+		<input type="checkbox" name="housecard-3-arryn" id="housecard-3-arryn">
+		<label for="housecard-3-arryn"><img"></label>
+		<input type="checkbox" name="housecard-4-arryn" id="housecard-4-arryn">
+		<label for="housecard-4-arryn"><img></label>
+		<input type="checkbox" name="housecard-5-arryn" id="housecard-5-arryn">
+		<label for="housecard-5-arryn"><img></label>
+		<input type="checkbox" name="housecard-6-arryn" id="housecard-6-arryn">
+		<label for="housecard-6-arryn"><img></label>
+    </div>
+    <input type="radio" name="navContentControl" id="baratheonStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-baratheon"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-baratheon"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-baratheon"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-baratheon" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-baratheon" id="housecard-0-baratheon">
+		<label for="housecard-0-baratheon"><img></label>
+		<input type="checkbox" name="housecard-1-baratheon" id="housecard-1-baratheon">
+		<label for="housecard-1-baratheon"><img></label>
+		<input type="checkbox" name="housecard-2-baratheon" id="housecard-2-baratheon">
+		<label for="housecard-2-baratheon"><img></label>
+		<input type="checkbox" name="housecard-3-baratheon" id="housecard-3-baratheon">
+		<label for="housecard-3-baratheon"><img></label>
+		<input type="checkbox" name="housecard-4-baratheon" id="housecard-4-baratheon">
+		<label for="housecard-4-baratheon"><img></label>
+		<input type="checkbox" name="housecard-5-baratheon" id="housecard-5-baratheon">
+		<label for="housecard-5-baratheon"><img></label>
+		<input type="checkbox" name="housecard-6-baratheon" id="housecard-6-baratheon">
+		<label for="housecard-6-baratheon"><img></label>
+    </div>
+    <input type="radio" name="navContentControl" id="greyjoyStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-greyjoy"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-greyjoy"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-greyjoy"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-greyjoy" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-greyjoy" id="housecard-0-greyjoy">
+		<label for="housecard-0-greyjoy"><img></label>
+		<input type="checkbox" name="housecard-1-greyjoy" id="housecard-1-greyjoy">
+		<label for="housecard-1-greyjoy"><img></label>
+		<input type="checkbox" name="housecard-2-greyjoy" id="housecard-2-greyjoy">
+		<label for="housecard-2-greyjoy"><img></label>
+		<input type="checkbox" name="housecard-3-greyjoy" id="housecard-3-greyjoy">
+		<label for="housecard-3-greyjoy"><img></label>
+		<input type="checkbox" name="housecard-4-greyjoy" id="housecard-4-greyjoy">
+		<label for="housecard-4-greyjoy"><img></label>
+		<input type="checkbox" name="housecard-5-greyjoy" id="housecard-5-greyjoy">
+		<label for="housecard-5-greyjoy"><img></label>
+		<input type="checkbox" name="housecard-6-greyjoy" id="housecard-6-greyjoy">
+		<label for="housecard-6-greyjoy"><img></label>
+    </div>
+    <input type="radio" name="navContentControl" id="lannisterStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-lannister"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-lannister"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-lannister"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-lannister" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-lannister" id="housecard-0-lannister">
+		<label for="housecard-0-lannister"><img></label>
+		<input type="checkbox" name="housecard-1-lannister" id="housecard-1-lannister">
+		<label for="housecard-1-lannister"><img></label>
+		<input type="checkbox" name="housecard-2-lannister" id="housecard-2-lannister">
+		<label for="housecard-2-lannister"><img></label>
+		<input type="checkbox" name="housecard-3-lannister" id="housecard-3-lannister">
+		<label for="housecard-3-lannister"><img></label>
+		<input type="checkbox" name="housecard-4-lannister" id="housecard-4-lannister">
+		<label for="housecard-4-lannister"><img></label>
+		<input type="checkbox" name="housecard-5-lannister" id="housecard-5-lannister">
+		<label for="housecard-5-lannister"><img></label>
+		<input type="checkbox" name="housecard-6-lannister" id="housecard-6-lannister">
+		<label for="housecard-6-lannister"><img></label>
+    </div>
+    <input type="radio" name="navContentControl" id="martellStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-martell"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-martell"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-martell"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-martell" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-martell" id="housecard-0-martell">
+		<label for="housecard-0-martell"><img></label>
+		<input type="checkbox" name="housecard-1-martell" id="housecard-1-martell">
+		<label for="housecard-1-martell"><img></label>
+		<input type="checkbox" name="housecard-2-martell" id="housecard-2-martell">
+		<label for="housecard-2-martell"><img></label>
+		<input type="checkbox" name="housecard-3-martell" id="housecard-3-martell">
+		<label for="housecard-3-martell"><img></label>
+		<input type="checkbox" name="housecard-4-martell" id="housecard-4-martell">
+		<label for="housecard-4-martell"><img></label>
+		<input type="checkbox" name="housecard-5-martell" id="housecard-5-martell">
+		<label for="housecard-5-martell"><img></label>
+		<input type="checkbox" name="housecard-6-martell" id="housecard-6-martell">
+		<label for="housecard-6-martell"><img></label>
+    </div>
+    <input type="radio" name="navContentControl" id="starkStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-stark"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-stark"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-stark"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-stark" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-stark" id="housecard-0-stark">
+		<label for="housecard-0-stark"><img></label>
+		<input type="checkbox" name="housecard-1-stark" id="housecard-1-stark">
+		<label for="housecard-1-stark"><img></label>
+		<input type="checkbox" name="housecard-2-stark" id="housecard-2-stark">
+		<label for="housecard-2-stark"><img></label>
+		<input type="checkbox" name="housecard-3-stark" id="housecard-3-stark">
+		<label for="housecard-3-stark"><img></label>
+		<input type="checkbox" name="housecard-4-stark" id="housecard-4-stark">
+		<label for="housecard-4-stark"><img></label>
+		<input type="checkbox" name="housecard-5-stark" id="housecard-5-stark">
+		<label for="housecard-5-stark"><img></label>
+		<input type="checkbox" name="housecard-6-stark" id="housecard-6-stark">
+		<label for="housecard-6-stark"><img></label>
+    </div>
+    <input type="radio" name="navContentControl" id="targaryenStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-targaryen"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-targaryen"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-targaryen"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-targaryen" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-targaryen" id="housecard-0-targaryen">
+		<label for="housecard-0-targaryen"><img></label>
+		<input type="checkbox" name="housecard-1-targaryen" id="housecard-1-targaryen">
+		<label for="housecard-1-targaryen"><img></label>
+		<input type="checkbox" name="housecard-2-targaryen" id="housecard-2-targaryen">
+		<label for="housecard-2-targaryen"><img></label>
+		<input type="checkbox" name="housecard-3-targaryen" id="housecard-3-targaryen">
+		<label for="housecard-3-targaryen"><img></label>
+		<input type="checkbox" name="housecard-4-targaryen" id="housecard-4-targaryen">
+		<label for="housecard-4-targaryen"><img></label>
+		<input type="checkbox" name="housecard-5-targaryen" id="housecard-5-targaryen">
+		<label for="housecard-5-targaryen"><img></label>
+		<input type="checkbox" name="housecard-6-targaryen" id="housecard-6-targaryen">
+		<label for="housecard-6-targaryen"><img></label>
+    </div>
+    <input type="radio" name="navContentControl" id="boltonStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-bolton"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-bolton"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-bolton"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-bolton" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-bolton" id="housecard-0-bolton">
+		<label for="housecard-0-bolton"><img></label>
+		<input type="checkbox" name="housecard-1-bolton" id="housecard-1-bolton">
+		<label for="housecard-1-bolton"><img></label>
+		<input type="checkbox" name="housecard-2-bolton" id="housecard-2-bolton">
+		<label for="housecard-2-bolton"><img></label>
+		<input type="checkbox" name="housecard-3-bolton" id="housecard-3-bolton">
+		<label for="housecard-3-bolton"><img></label>
+		<input type="checkbox" name="housecard-4-bolton" id="housecard-4-bolton">
+		<label for="housecard-4-bolton"><img></label>
+		<input type="checkbox" name="housecard-5-bolton" id="housecard-5-bolton">
+		<label for="housecard-5-bolton"><img></label>
+		<input type="checkbox" name="housecard-6-bolton" id="housecard-6-bolton">
+		<label for="housecard-6-bolton"><img></label>
+    </div>
+    <input type="radio" name="navContentControl" id="tyrellStuff">
+    <div class="navContent">
+        <label class="fullwidth">
+            Units:
+            <textarea name="units-tyrell"></textarea>
+        </label>
+        <label class="fullwidth">
+            Orders:
+            <textarea name="orders-tyrell"></textarea>
+        </label>
+        <label class="fullwidth">
+            Powertokens in Areas:
+            <textarea name="powertokens-tyrell"></textarea>
+        </label>
+        <label class="fullwidth">
+            Available Power Tokens:
+            <input name="availablePowertokens-tyrell" type="number" min="0" max="20" step="1" value="5">
+        </label>
+		<input type="checkbox" name="housecard-0-tyrell" id="housecard-0-tyrell">
+		<label for="housecard-0-tyrell"><img></label>
+		<input type="checkbox" name="housecard-1-tyrell" id="housecard-1-tyrell">
+		<label for="housecard-1-tyrell"><img></label>
+		<input type="checkbox" name="housecard-2-tyrell" id="housecard-2-tyrell">
+		<label for="housecard-2-tyrell"><img></label>
+		<input type="checkbox" name="housecard-3-tyrell" id="housecard-3-tyrell">
+		<label for="housecard-3-tyrell"><img></label>
+		<input type="checkbox" name="housecard-4-tyrell" id="housecard-4-tyrell">
+		<label for="housecard-4-tyrell"><img></label>
+		<input type="checkbox" name="housecard-5-tyrell" id="housecard-5-tyrell">
+		<label for="housecard-5-tyrell"><img></label>
+		<input type="checkbox" name="housecard-6-tyrell" id="housecard-6-tyrell">
+		<label for="housecard-6-tyrell"><img></label>
+    </div>
+</div>
+<div class="board">
+    <input type="checkbox" id="toggleUnits" checked="checked">
+    <input type="checkbox" id="toggleOrders" checked="checked">
+    <input type="checkbox" id="togglePowertokens" checked="checked">
+
+</div>
+
+
+
+
+
+</body></html>
