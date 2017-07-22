@@ -1133,7 +1133,7 @@ q:before, q:after { content: ""; content: none; }
     top: 81%;
     left: 32%;
 }
-.pos-princespass {
+.pos-nightsong {
     top: 85%;
     left: 24%;
 }
@@ -1149,7 +1149,7 @@ q:before, q:after { content: ""; content: none; }
     top: 77%;
     left: 46%;
 }
-.pos-starfall {
+.pos-sandstone {
     top: 92%;
     left: 25%;
 }
@@ -1305,11 +1305,11 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-westsummersea ~ .unit.pos-westsummersea,
 .unit.pos-arbor ~ .unit.pos-arbor,
 .unit.pos-boneway ~ .unit.pos-boneway,
-.unit.pos-princespass ~ .unit.pos-princespass,
+.unit.pos-nightsong ~ .unit.pos-nightsong,
 .unit.pos-yronwood ~ .unit.pos-yronwood,
 .unit.pos-stormsend ~ .unit.pos-stormsend,
 .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor,
-.unit.pos-starfall ~ .unit.pos-starfall,
+.unit.pos-sandstone ~ .unit.pos-sandstone,
 
 .unit.pos-highgarden ~ .unit.pos-highgarden,
 .unit.pos-dornishmarches ~ .unit.pos-dornishmarches,
@@ -1422,11 +1422,11 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea,
 .unit.pos-arbor ~ .unit.pos-arbor ~ .unit.pos-arbor,
 .unit.pos-boneway ~ .unit.pos-boneway ~ .unit.pos-boneway,
-.unit.pos-princespass ~ .unit.pos-princespass ~ .unit.pos-princespass,
+.unit.pos-nightsong ~ .unit.pos-nightsong ~ .unit.pos-nightsong,
 .unit.pos-yronwood ~ .unit.pos-yronwood ~ .unit.pos-yronwood,
 .unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend,
 .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor,
-.unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall,
+.unit.pos-sandstone ~ .unit.pos-sandstone ~ .unit.pos-sandstone,
 
 .unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden,
 .unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches,
@@ -1534,11 +1534,11 @@ q:before, q:after { content: ""; content: none; }
 .unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea ~ .unit.pos-westsummersea,
 .unit.pos-arbor ~ .unit.pos-arbor ~ .unit.pos-arbor ~ .unit.pos-arbor,
 .unit.pos-boneway ~ .unit.pos-boneway ~ .unit.pos-boneway ~ .unit.pos-boneway,
-.unit.pos-princespass ~ .unit.pos-princespass ~ .unit.pos-princespass ~ .unit.pos-princespass,
+.unit.pos-nightsong ~ .unit.pos-nightsong ~ .unit.pos-nightsong ~ .unit.pos-nightsong,
 .unit.pos-yronwood ~ .unit.pos-yronwood ~ .unit.pos-yronwood ~ .unit.pos-yronwood,
 .unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend ~ .unit.pos-stormsend,
 .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor ~ .unit.pos-stormsend-harbor,
-.unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall ~ .unit.pos-starfall,
+.unit.pos-sandstone ~ .unit.pos-sandstone ~ .unit.pos-sandstone ~ .unit.pos-sandstone,
 
 .unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden ~ .unit.pos-highgarden,
 .unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches ~ .unit.pos-dornishmarches,
