@@ -444,7 +444,7 @@ try {
 			// nope, lets do the decode and decompress routine
 			conf = JSON.parse(LZString.decompress(Base64.urlSafeDecode(hash)));
 
-      console.log(LZString.decompress(Base64.urlSafeDecode(hash)));
+      //console.log(LZString.decompress(Base64.urlSafeDecode(hash)));
 		}
         setBoard(conf);
         setConf(conf);
